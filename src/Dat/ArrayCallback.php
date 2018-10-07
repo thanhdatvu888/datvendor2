@@ -21,7 +21,9 @@ class ArrayCallback {
         return $sum;
     }
 
-
+    public static function filter($arr, $callback){
+        
+    }
 }
 
 ?>
