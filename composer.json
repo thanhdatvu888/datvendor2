@@ -1,0 +1,21 @@
+{
+    "name": "thanhdat/datvendor",
+    "description": "My first Composer project",
+    "authors": [
+        {
+            "name": "Thanh Dat",
+            "email": "thanhdatvu888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "thanhdat/datvendor": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/",
+            "Dat": "src/"
+        }
+    }
+}
