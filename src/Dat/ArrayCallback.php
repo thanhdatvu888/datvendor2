@@ -22,7 +22,15 @@ class ArrayCallback {
     }
 
     public static function filter($arr, $callback){
-        
+        $result = [];
+        if($arr && is_array($arr)){
+            foreach($arr as $val){
+                if($callback($val)){
+                    $result[] = $val;
+                }
+            }
+        }
+        return $result;
     }
 }
 
